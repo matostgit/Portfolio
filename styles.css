@@ -1,0 +1,60 @@
+body {
+    background-color: #F8F8F8;
+    color: #666666; 
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Brawler', serif;
+    text-transform: uppercase;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #dedede;
+    width: 70%;
+    margin: 50px auto;
+    padding: 15px 0 15px 0;
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #666; 
+}
+
+a:hover {
+    color: #777;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Vollkorn', serif;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background: url(http://mateuszostaszewski.pl/img/photo.jpg) no-repeat;
+    margin: 0 auto;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+.photo:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
