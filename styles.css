@@ -1,12 +1,13 @@
 body {
-    background-color: #F8F8F8;
-    color: #666666; 
+    background-color: white;
+    
 }
 
 ul {
     list-style-type: none;
     text-align: center;
-    font-family: 'Brawler', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;   
     text-transform: uppercase;
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -14,6 +15,7 @@ ul {
     width: 70%;
     margin: 50px auto;
     padding: 15px 0 15px 0;
+    color: black;
 }
 
 li {
@@ -23,17 +25,11 @@ li {
 
 a {
     text-decoration: none;
-    color: #666; 
+    color: black; 
 }
 
 a:hover {
     color: #777;
-}
-
-blockquote {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Vollkorn', serif;
 }
 
 .photo {
@@ -60,5 +56,48 @@ blockquote {
 }
 
 #about {
-    background-color: #FFFFFF;
+    
+    background: url("img/bg.png");
+    background-color: #fbfbfb;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    color: #222222;
+    padding-top: 35px;
+    
+    
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+    color: #f16863;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.quote {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
+    width:50%;
+    margin: 0 auto;
+}
+
+
+span {
+    border-bottom: 3px dotted #d1d1d1;
+width: 100px;
+display: block;
+
+margin: 0 auto;
 }
